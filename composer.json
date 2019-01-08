@@ -1,5 +1,5 @@
 {
-    "name": "tk/Gantt",
+    "name": "tk/gantt",
     "description": "A Laravel Nova card.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "tk\\Gantt\\": "src/"
+            "tk\\gantt\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "tk\\Gantt\\CardServiceProvider"
+                "tk\\gantt\\CardServiceProvider"
             ]
         }
     },
