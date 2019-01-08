@@ -1,5 +1,5 @@
 {
-    "name": "beyondcode/Gantt",
+    "name": "tk/Gantt",
     "description": "A Laravel Nova card.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Beyondcode\\Gantt\\": "src/"
+            "tk\\Gantt\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Beyondcode\\Gantt\\CardServiceProvider"
+                "tk\\Gantt\\CardServiceProvider"
             ]
         }
     },
